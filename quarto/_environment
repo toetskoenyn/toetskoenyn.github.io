@@ -1,0 +1,2 @@
+# Use the system Typst (0.15+, which has HTML export) instead of Quarto's bundled 0.13.
+QUARTO_TYPST=/opt/homebrew/bin/typst

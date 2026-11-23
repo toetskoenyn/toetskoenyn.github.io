@@ -1,0 +1,22 @@
+# Every .qmd in this folder is a page. `quarto render` builds each one to
+# out/<name>.pdf and out/<name>.html in the Tufte handout layout.
+# The look lives in _tufte/tufte.typ; _tufte/tufte.lua maps the Markdown onto it.
+project:
+  type: default
+  output-dir: out
+  # Quarto renders Typst only to PDF; this compiles each kept .typ to HTML too.
+  post-render: _tufte/render-html.sh
+
+# Defaults for every page; a page's front matter can override them.
+lang: en
+date-format: "D MMMM YYYY"
+
+format:
+  typst:
+    keep-typ: true
+    template-partials:
+      - _tufte/typst-template.typ
+      - _tufte/typst-show.typ
+    filters:
+      - at: pre-ast
+        path: _tufte/tufte.lua
