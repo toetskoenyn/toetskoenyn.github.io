@@ -1,2 +1,3 @@
 # Use the system Typst (0.15+, which has HTML export) instead of Quarto's bundled 0.13.
+# Drop this once Quarto bundles Typst 0.15 or later.
 QUARTO_TYPST=/opt/homebrew/bin/typst

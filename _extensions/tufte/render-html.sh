@@ -9,7 +9,7 @@ status=0
 for typ in *.typ; do
   [ -f "$typ" ] || continue
   html="$outdir/${typ%.typ}.html"
-  out=$(typst compile --features html --format html "$typ" "$html" 2>&1) || {
+  out=$("${QUARTO_TYPST:-typst}" compile --features html --format html "$typ" "$html" 2>&1) || {
     echo "$out"
     status=1
     continue
