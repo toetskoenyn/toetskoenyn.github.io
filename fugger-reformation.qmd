@@ -12,29 +12,23 @@ Augsburg · Mainz · Rome · Wittenberg, 1514–1517\
 
 # 1. Summary
 
-This synthesis follows how a private banking arrangement became embedded in a major church fundraising campaign, and what that shows about the financial background to the Reformation.
+This synthesis follows how a private banking arrangement became embedded in a major church fundraising campaign, and what that shows about the financial background to the Reformation. It began as a check of a popular account of the loan. The arrangement itself is well documented; several of the account's more dramatic details are not (§7).
 
-In March 1514 Albrecht of Brandenburg, aged 23 and already Archbishop of Magdeburg and administrator of Halberstadt, was chosen as Archbishop of Mainz.[@Schulte1904] The appointments needed costly papal confirmations and dispensations, and he borrowed heavily from Jacob Fugger to pay for them in Rome.
-
-In 1515 Pope Leo X authorised an eight-year indulgence in Albrecht's territories, officially to pay for building St Peter's Basilica in Rome. Half the takings were for the basilica and half for Albrecht, and the Fugger bank handled both.[@Schulte1904]
-
-The arrangement was unusually direct. In May 1517 the indulgence commissioners ordered, on papal instruction, that Jacob Fugger should hold a key to every collection chest, so the bank could watch the money and recover its loan.[@Schulte1904, 143–44]
-
-In October 1517 Martin Luther sent Albrecht his Ninety-Five Theses, challenging both the theology of indulgences and the way they were sold.[@Wengert2015] Printing carried them quickly across the German lands and beyond. Luther's objections were theological at root; the financing behind the campaign is the subject of this handout.
+In 1514 Albrecht of Brandenburg, already Archbishop of Magdeburg, borrowed from Jacob Fugger to pay for the papal confirmations and dispensations that let him become Archbishop of Mainz as well.[@Schulte1904] Half the takings of the indulgence Leo X authorised in 1515 were assigned to repaying the loan, the other half went to St Peter's Basilica, and the Fugger bank handled both. From May 1517 a key to every collection chest was held for Fugger.[@Schulte1904, 143–44] In October 1517 Luther sent Albrecht his Ninety-Five Theses.[@Wengert2015] His objections were theological at root; the financing behind the campaign is the subject of this handout.
 
 ::: {.verdict label="Main argument"}
-A private loan became part of a church fundraising campaign. It did not cause the Reformation, but it shows how far religious authority, patronage and commercial finance had become entangled.
+A private loan became part of a church fundraising campaign. It did not cause the Reformation, but it shows how far religious authority, patronage and commercial finance had become entangled: bank credit paid for church offices, the bank's agent held a key to the collection chests, and the bank moved the papacy's share to Rome.
 :::
 
 # 2. The money behind the indulgence
 
 [The familiar story]{.newthought} begins with Martin Luther's Ninety-Five Theses, traditionally said to have been posted on the door of the Castle Church in Wittenberg on 31 October 1517. How and whether they were posted is still disputed. Less familiar is the financial arrangement that helped set off the indulgence controversy.
 
-At its centre was a large loan from Jacob Fugger, head of the Augsburg banking house, to Albrecht of Brandenburg, an archbishop who wanted to hold several church offices at once and needed expensive papal dispensations to do so. The indulgence of 1515 was to repay it.[@Schulte1904]
+At its centre was a large loan from Jacob Fugger, head of the Augsburg banking house, to Albrecht of Brandenburg, an archbishop who wanted to hold several church offices at once and needed expensive papal dispensations to do so. Albrecht's half of the takings from the indulgence of 1515 was assigned to repaying it.[@Schulte1904]
 
-When Luther challenged the indulgence in 1517, he exposed abuses in a system whose financial workings he apparently did not know.
+When Luther challenged the indulgence in 1517, he attacked abuses in a system whose financial workings he may not have known: there is no clear evidence that he understood the Fugger arrangement.
 
-<!-- TODO: "whose financial workings he apparently did not know": no source read so far says whether Luther knew of the Fugger arrangement. Find one (Häberlein 2012 or the Oxford Handbook of Martin Luther's Theology are candidates) or soften the sentence. -->
+<!-- TODO: No source read so far says whether Luther knew of the Fugger arrangement; the sentence is now softened to match §6. Häberlein 2012 or the Oxford Handbook of Martin Luther's Theology may settle it. -->
 
 The sections that follow look at the Fugger fortune, its mining and banking, and the financial ties that bound European rulers, the Church and an emerging commercial economy.
 
@@ -49,9 +43,9 @@ Jacob Fugger (1459–1525), known as Jacob the Rich, turned the family business 
 The Fuggers lent heavily to European rulers, the Habsburgs above all, and their loans were seldom simple. In return for capital they took preferential rights to mineral output, mining leases, mortgages on mines and long-term purchase agreements.[@FuggerFirm; @Graulau2008] The model tied sovereign finance directly to industry. The Fuggers financed mines, took part in extraction and smelting, and sold copper, silver and other metals through their own trading network. Two ventures show how it worked:
 
 1. *Schwaz silver.* The silver mines at Schwaz in Tyrol, known historically as the "mother of all mines", became Europe's leading silver centre in the late fifteenth century.[@Tschan2004] In the 1480s Archduke Sigismund of Tyrol borrowed from Jacob Fugger and his family, pledging the mining revenues and granting them preferential rights to the silver.[@Linsboth; @LinsbothSponsored] By the end of the century Schwaz produced an estimated 85% of Europe's silver, which helped make the Fuggers one of Europe's most powerful banking and industrial families.[@Tschan2004]
-2. *Hungarian copper.* In 1495 the Fuggers contracted with the mining entrepreneur Ján Thurzo to found the Fugger–Thurzo mining and trading company in the Kingdom of Hungary, centred on Banská Bystrica in present-day Slovakia. Fugger capital and trading networks joined Thurzo's mining expertise in an integrated business of mining, smelting and refining. By 1499 the company had invested 277,500 guilders, and between 1496 and 1546 its profits came to about 2.5 million guilders.[@Romhanyi2020] In the years after 1500, copper from Upper Hungary held about 40% of the European market, which made the enterprise one of the strongest forces in the copper trade.[@FuggerRoadBanskaBystrica]
+2. *Hungarian copper.* In 1495 the Fuggers contracted with the mining entrepreneur Ján Thurzo to found the Fugger–Thurzo mining and trading company in the Kingdom of Hungary, centred on Banská Bystrica in present-day Slovakia. Fugger capital and trading networks joined Thurzo's mining expertise in an integrated business of mining, smelting and refining. By 1499 the company had invested 277,500 guilders, and between 1496 and 1546 its profits came to about 2.5 million guilders.[@Romhanyi2020] In the years after 1500, copper from Upper Hungary held a large share of the European market, which made the enterprise one of the strongest forces in the copper trade.[@FuggerRoadBanskaBystrica]
 
-<!-- TODO: The 40% share is cited from a tourism site (European Fugger Road), which gives no source of its own and dates it "in the years following 1500", not 1520. The suggested scholarly source for 1520 (McCabe 2019, UC Santa Barbara dissertation, pp. 131–132) could not be found; a paper on copper ingots from the Caldeira Island wreck (c. 1550) also gives 40% but could not be read. Replace the citation if you can confirm either. -->
+<!-- TODO: The 40% figure has been dropped from the text until a scholarly source confirms it. The 40% share was cited from a tourism site (European Fugger Road), which gives no source of its own and dates it "in the years following 1500", not 1520. The suggested scholarly source for 1520 (McCabe 2019, UC Santa Barbara dissertation, pp. 131–132) could not be found; a paper on copper ingots from the Caldeira Island wreck (c. 1550) also gives 40% but could not be read. Replace the citation if you can confirm either. -->
 
 <!-- TODO: Linsboth's "Sponsored by Fugger" chapter confirms that the Fuggers lent Archduke Sigismund 500,000 gulden in the late fifteenth century, but not the 1480s specifically. Benecke, Maximilian I: An Analytical Biography (Routledge & Kegan Paul, 1982; ISBN 9780710090232) is a likely source for the date. -->
 
@@ -65,6 +59,8 @@ In 1519 he put up 543,385 guilders, about two thirds of the 851,585 spent on sec
 
 <!-- TODO: The figure suggested for the Fugger share was 543,585; the Swiss National Museum gives 543,385. Check against Steinmetz (2015) or Cohn (2001). -->
 
+This background explains why Albrecht turned to Fugger in 1514. The firm had a branch in Rome that could pay the Curia on the spot, it was used to lending to princes against future income, and, as with the Tyrolean silver, it secured such loans on revenues it could watch.
+
 # 4. Albrecht and the Curia
 
 [The Renaissance papacy]{.newthought} was one of Europe's largest financial and administrative institutions. Its income came from church taxes, appointment and confirmation fees, the papal estates and contributions from across Catholic Europe.
@@ -77,19 +73,19 @@ In 1513 Albrecht of Brandenburg, aged 23, became Archbishop of Magdeburg and adm
 
 Canon law raised two obstacles. Albrecht was below the canonical age for consecration as a bishop, and holding several bishoprics at once was restricted. He needed papal dispensations for both.[@Schulte1904]
 
-A debt bond dated 15 May 1514 records what he owed Jacob Fugger: 21,000 ducats plus a fee of 500 Rhenish florins, together 29,000 florins at the agreed rate of 100 ducats to 140 florins. Fugger's agent in Rome paid the 21,000 ducats to Albrecht's envoys there.[@Schulte1904, 104] The transaction shows how far commercial banking had entered the political and administrative machinery of the Church.
+A debt bond dated 15 May 1514 records what he owed Jacob Fugger: 21,000 ducats plus a fee of 500 Rhenish florins, which Schulte calls the firm's *Nutzen*, its profit, at the agreed rate of 100 ducats to 140 florins. Schulte gives the total as 29,000 Rhenish florins, although that rate and fee come to 29,900. Fugger's agent in Rome paid the 21,000 ducats to Albrecht's envoys there.[@Schulte1904, 104] The transaction shows how far commercial banking had entered the political and administrative machinery of the Church.
 
 <!-- TODO: The suggested text put Albrecht's total confirmation and dispensation fees at about 30,000 ducats, separate from the 21,000-ducat bond. Schulte, as read so far, gives the bond (21,000 ducats = 29,000 Rhenish florins) but not a separate total; confirm before adding. -->
 
-The indulgence Leo X authorised in 1515 was to be the means of repayment.
+Albrecht's half of the indulgence Leo X authorised in 1515 was assigned to repaying the debt.
 
-# 5. How the indulgence repaid the loan
+# 5. How the indulgence was tied to the loan
 
 [The arrangement]{.newthought} tied Albrecht's debt to Jacob Fugger to the papacy's need to pay for St Peter's Basilica.
 
 On 31 March 1515 Leo X authorised an eight-year indulgence covering the church provinces of Mainz and Magdeburg and the Brandenburg territories, with Albrecht as one of its commissioners. A motu proprio of 15 April 1515 set out the terms. Half the takings, after costs, were to go to the building of St Peter's, sent to Rome by Albrecht each year. The motu proprio also records that Albrecht had paid 10,000 ducats towards the building, in return for which the pope promised not to revoke the indulgence or allow a competing one for eight years.[@Schulte1904, 125] Schulte reads the payment differently. During the negotiations an intermediary had proposed a "composition" of 10,000 ducats that was not to be called one, because the pope would grant an indulgence in return. Schulte concludes that the money bought papal consent to Albrecht keeping the see of Halberstadt, and calls the older view of it as a premium for the indulgence "völlig irrig", completely mistaken.[@Schulte1904, 115, 122]
 
-The collection was unusually formal. An order of the commissioners dated 28 May 1517 gave Jacob Fugger one of the keys to every indulgence chest. Each chest had several keys and was opened before a notary and witnesses. After costs, both halves were paid to the Fuggers: the papal half for transfer to Rome, Albrecht's half against his debt.[@Schulte1904, 143–44]
+The collection was closely controlled. An order of the commissioners dated 28 May 1517 gave Jacob Fugger one of the keys to every indulgence chest. Each chest had several keys and was opened before a notary and witnesses. After costs, both halves were paid to the Fuggers: the papal half for transfer to Rome, Albrecht's half against his debt.[@Schulte1904, 143–44]
 
 | Stage        | What happened                                                       |
 |--------------|---------------------------------------------------------------------|
@@ -100,11 +96,22 @@ The collection was unusually formal. An order of the commissioners dated 28 May 
 | Rome, 50%    | Paid to the Fuggers for transfer to St Peter's Basilica             |
 | Albrecht, 50% | Paid to the Fuggers against Albrecht's debt                        |
 
-The Dominican friar Johann Tetzel became the best known of the campaign's preachers. He travelled through parts of the German lands promoting the indulgence, including its benefits for souls in purgatory, and his preaching became notorious for suggesting that spiritual benefits could be bought.
+The Dominican friar Johann Tetzel became the best known of the campaign's preachers. He travelled through parts of the German lands promoting the indulgence, including its benefits for souls in purgatory. Critics accused such preaching of selling spiritual benefits: Luther's Thesis 27 condemns those who preach that the soul flies out of purgatory as soon as the money clinks in the chest, a saying later attached to Tetzel himself.[@Luther1915]
+
+<!-- TODO: Add the page for Thesis 27 in Luther1915, and a source on what Tetzel actually preached (e.g. Paulus, Johann Tetzel der Ablassprediger, 1899). -->
+
+The payers are harder to trace than the money. Albrecht's instructions to his sub-commissioners, the *Instructio summaria*, set contributions by rank and wealth, and let those with no money contribute by prayer and fasting.
+
+<!-- TODO: Source the Instructio summaria passage (an edition of the text, or a secondary account such as Swanson 2006 or Hamm 2016). -->
+
 
 The Fugger bank was more than a creditor waiting to be repaid. It also acted as a financial intermediary for the papacy, collecting and transferring church revenues, and so had a direct interest in how the indulgence was run.[@Haberlein2020]
 
-Schulte's archival work corrects the popular picture in two further ways. The proposal for the indulgence came not from Albrecht but from the papal Datary, which wanted papal income in return for the dispensations; Albrecht's envoys at first disliked it, then pressed for the largest possible yield, hence the eight years and an area covering almost half the Empire.[@Schulte1904, 122] And on the accounts Schulte could reconstruct, the indulgence earned Albrecht little. Of his share of 8,436 florins he would have had to pass 3,000 to the Emperor, leaving 5,436: not even half the "composition", let alone the confirmation fees. Schulte stresses that the assumptions behind these figures are very loose, and there is no reliable final account of what the campaign raised.[@Schulte1904, 147]
+Schulte's archival work corrects the popular picture in two further ways. The proposal for the indulgence came not from Albrecht but from the papal Datary, which wanted papal income in return for the dispensations; Albrecht's envoys at first disliked it, then pressed for the largest possible yield, hence the eight years and an area covering almost half the Empire.[@Schulte1904, 122] And on the accounts Schulte could reconstruct, the indulgence earned Albrecht little. Of his share of 8,436 florins he would have had to pass 3,000 to the Emperor, leaving 5,436 florins, about 3,900 ducats at the rate of 1514: not even half the 10,000-ducat "composition", let alone the confirmation fees. Schulte stresses that the assumptions behind these figures are very loose, and there is no reliable final account of what the campaign raised.[@Schulte1904, 147]
+
+On these figures the indulgence could have covered only a small part of a debt of about 29,000 florins. How the rest was paid is not clear from the sources used here, but by the end of 1527 the debt was no longer outstanding: the Fugger balance of 31 December that year does not list Albrecht among the firm's debtors.[@Schulte1904, 104]
+
+<!-- TODO: The 1527 balance point comes from an OCR text of Schulte p. 104 (archive.org, diefuggerinromm00schugoog). Check it against the page scan. -->
 
 The arrangement joined three powerful institutions: the papacy, the territorial Church under Albrecht and the Fugger bank.
 
@@ -112,9 +119,13 @@ The arrangement joined three powerful institutions: the papacy, the territorial 
 
 [Martin Luther]{.newthought} taught theology at the University of Wittenberg. His family background placed him close to the mining economy of central Germany: his father, Hans Luder, became a successful mining entrepreneur and smelter operator in the Mansfeld copper district, on the edge of the southern Harz.
 
+<!-- TODO: Add a source for Hans Luder's career in Mansfeld mining and smelting. -->
+
 That does not connect Luther directly to the Fugger business. His father worked in the same wider mining economy as the great merchant financiers, but there is no clear evidence that Luther understood the Fuggers' financial arrangements.
 
-His immediate concern was what indulgence preaching did to belief and practice. Parishioners seemed to treat indulgences as a way round the need for repentance. On 31 October 1517 Luther wrote to Albrecht as Archbishop of Mainz and sent him his objections with the Ninety-Five Theses.[@Wengert2015]
+His immediate concern was what indulgence preaching did to belief and practice. Parishioners seemed to treat indulgences as a way round the need for repentance. The campaign was not preached in electoral Saxony, where Frederick the Wise did not allow it, so Wittenbergers who wanted letters crossed into neighbouring territory such as Jüterbog. On 31 October 1517 Luther wrote to Albrecht as Archbishop of Mainz and sent him his objections with the Ninety-Five Theses.[@Wengert2015]
+
+<!-- TODO: Add a source for Frederick the Wise's ban and the Wittenbergers' trips to Jüterbog. -->
 
 The theses were in Latin and proposed an academic disputation at Wittenberg; Luther did not set out to launch a European movement. Printing widened their reach quickly. By the end of 1517 three editions had appeared, in Leipzig, Nuremberg and Basel.[@LoCTheses]
 
@@ -124,11 +135,14 @@ The printing press did not create the controversy, but it carried the arguments 
 
 # 7. Limits of the evidence
 
-Three areas need particular caution.
+Four areas need particular caution.
 
-1. *The fees.* The figures of 21,000 ducats and about 29,000 to 30,000 Rhenish florins are not competing estimates of one payment. The 21,000 ducats were the Fugger loan to Albrecht; the florin figure is the same debt in another currency, plus Fugger's fee of 500 florins.[@Schulte1904, 104] The 10,000 ducats Albrecht paid Rome were a separate payment: the motu proprio presents them as a contribution to St Peter's, while Schulte argues they were the price of keeping Halberstadt.[@Schulte1904, 122, 125]
+1. *The fees.* The figures of 21,000 ducats and 29,000 Rhenish florins are not competing estimates of one payment. The 21,000 ducats were the Fugger loan to Albrecht; the florin figure is Schulte's total for the same debt in another currency, plus Fugger's fee of 500 florins, although at the stated rate it should be 29,900.[@Schulte1904, 104] The 10,000 ducats Albrecht paid Rome were a separate payment: the motu proprio presents them as a contribution to St Peter's, while Schulte argues they were the price of keeping Halberstadt.[@Schulte1904, 122, 125]
 2. *The fortune.* Estimates of Jacob Fugger's wealth are approximate. *Financial History* puts it at just under 2% of Europe's economic output at his death,[@FinancialHistory2015] a reconstruction rather than a contemporary measurement. Higher claims, up to 10% of the Holy Roman Empire's output, deserve caution unless their method is clear, and the family's own historians note that such figures do not tally with the inventory of 1527.[@FuggerRich] Comparisons with modern billionaires illustrate scale; they are not valuations.
 3. *Cause.* The indulgence campaign was an important episode on the way to the Reformation, not its only cause. The controversy drew together theological disagreement, resentment of church taxation, political tensions within the Empire and unease about religious authority being used to raise money. The Fugger loan was an important part of the financing behind the campaign, but on the evidence it cannot be called the single cause or the immediate spark of the Reformation.
+4. *The historiography.* The account of how the indulgence arose, what the 10,000 ducats paid for and how little Albrecht gained rests on Schulte's archival study of 1904. It has not yet been checked against later work on Albrecht and the indulgence campaign, which may confirm or revise it.
+
+<!-- TODO: Check §4–§5 against post-1904 work and update item 4: Swanson (ed.), Promissory Notes on the Treasury of Merits (Brill, 2006); Jürgensmeier (ed.), Erzbischof Albrecht von Brandenburg (1490–1545) (1991); Hamm, Ablass und Reformation (2016); Paulus, Johann Tetzel der Ablassprediger (1899). Search lead: Wilhelm Ernst Winterhager on the 1515–17 campaign. -->
 
 Further work in the Fugger archives could reconstruct how money moved between Rome, Augsburg, Albrecht's territories and the places where indulgences were preached. It would need to separate documented transfers from estimates of local collections; the surviving records do not give a complete account of what the campaign raised.[@Schulte1904, 147]
 
@@ -140,7 +154,7 @@ The financial arrangement is well documented. Some of the more dramatic details 
 
 # 8. Consequences
 
-[The indulgence controversy]{.newthought} became one of the defining episodes of the early Reformation. What followed in Europe, however, cannot be laid at the door of the Fugger loan.
+[The indulgence controversy]{.newthought} became one of the defining episodes of the early Reformation. What followed in Europe, however, cannot be laid at the door of the Fugger loan. The three conflicts below are included because the popular account linked them to it; none can be traced to it.
 
 - *The German Peasants' War* of 1524–1525 grew out of long-standing social, economic and political grievances as well as the religious upheaval of the time. Its dead are usually estimated at around 100,000.[@WHEPeasantsWar]
 - *The Schmalkaldic War* of 1546–1547 was fought between Charles V and the Protestant Schmalkaldic League. Charles financed it partly with Fugger loans,[@LinsbothSponsored] though how much they contributed to particular campaigns needs careful documentation.
@@ -148,4 +162,4 @@ The financial arrangement is well documented. Some of the more dramatic details 
 
 Jacob Fugger did not set out to divide Western Christianity. He was a Catholic merchant and financier who built the Fuggerei in Augsburg, a charitable housing estate begun in 1516 and endowed by his foundation deed of 1521; it still exists.[@FuggerHistory] His family went on financing the Habsburgs, including in their wars with Protestant powers.[@LinsbothSponsored]
 
-The significance of the story lies not in any claim that one banker caused the Reformation, but in how a private debt became entangled with a great church fundraising campaign. The arrangement exposed an uneasy relationship between religious authority and commercial interest at a moment when both were coming under scrutiny. The Reformation had many causes; the Fugger–Albrecht arrangement is an unusually clear example of how finance could become part of a much larger institutional crisis.
+The significance of the story lies not in any claim that one banker caused the Reformation, but in how a private debt became entangled with a great church fundraising campaign. Seen through the archives, the arrangement shows an uneasy relationship between religious authority and commercial interest at a moment when both were coming under scrutiny, although there is no clear evidence that Luther knew its details in 1517. The Reformation had many causes; the Fugger–Albrecht arrangement is a well-documented example of how finance could become part of a much larger institutional crisis.
