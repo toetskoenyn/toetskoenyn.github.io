@@ -3,7 +3,7 @@
 # publishes docs/ at https://toetskoenyn.github.io/ (index.qmd is the home page).
 # The template is the extension in _extensions/tufte: tufte.typ holds the
 # look, tufte.lua maps the Markdown onto it. Folders starting with _ are
-# not rendered (see _archive).
+# not rendered (_sources, _design).
 project:
   type: default
   output-dir: docs
