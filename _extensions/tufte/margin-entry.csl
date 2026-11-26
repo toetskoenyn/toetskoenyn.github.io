@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The first citation of a work in the margin: author, year and title
+     only. Editor, publisher and place are left to the list at the end. -->
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="en-GB">
+  <info>
+    <title>Tufte handout: margin entry</title>
+    <id>tufte-margin-entry</id>
+    <updated>2026-11-26T00:00:00+00:00</updated>
+  </info>
+  <macro name="author">
+    <names variable="author">
+      <name name-as-sort-order="first" and="text" delimiter=", " delimiter-precedes-last="always" sort-separator=", "/>
+      <substitute>
+        <names variable="editor"/>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="year">
+    <date variable="issued">
+      <date-part name="year"/>
+    </date>
+  </macro>
+  <macro name="title">
+    <choose>
+      <if type="book report" match="any">
+        <text variable="title" font-style="italic"/>
+      </if>
+      <else-if type="article-journal article-magazine article-newspaper chapter paper-conference" match="any">
+        <group delimiter=". ">
+          <text variable="title" quotes="true"/>
+          <text variable="container-title" font-style="italic"/>
+        </group>
+      </else-if>
+      <else>
+        <text variable="title" quotes="true"/>
+      </else>
+    </choose>
+  </macro>
+  <citation>
+    <layout delimiter="; ">
+      <group delimiter=" ">
+        <names variable="author">
+          <name form="short"/>
+        </names>
+        <text macro="year"/>
+      </group>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout>
+      <group delimiter=". ">
+        <text macro="author"/>
+        <text macro="year"/>
+        <text macro="title"/>
+      </group>
+    </layout>
+  </bibliography>
+</style>

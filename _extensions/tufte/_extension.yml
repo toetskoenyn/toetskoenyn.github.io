@@ -9,9 +9,17 @@ contributes:
     # which a format extension cannot declare itself.
     typst:
       keep-typ: true
+      # The bundled EB Garamond (see fonts/OFL.txt); the HTML embeds the same files.
+      font-paths:
+        - _extensions/tufte/fonts
+      # Citations: full entry in the margin first, "Author Year" after.
+      # A handout sets `reference-list: false` to drop the list at the end.
+      bibliographystyle: chicago-author-date
+      reference-list: true
       template-partials:
         - typst-template.typ
         - typst-show.typ
+        - biblio.typ
       filters:
         - at: pre-ast
           path: tufte.lua

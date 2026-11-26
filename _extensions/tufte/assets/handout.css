@@ -1,72 +1,243 @@
-/* Additions to tufte.css for this handout. */
+/* Handout stylesheet (see _design/style-guide.md).
+   Every size and length is a custom property that tufte.typ writes from
+   tokens.json, so the screen keeps the print proportions. 1rem is the body
+   size. Don't put literal sizes here. */
 
-.smallcaps {
-    font-variant: small-caps;
-    letter-spacing: 0.03em;
+html {
+    font-size: var(--body-px);
+    background: var(--paper);
+    color: var(--ink);
 }
 
-p.date {
+body {
+    margin: 0;
+    font-family: "EB Garamond";
+    font-variant-numeric: lining-nums;
+    font-kerning: normal;
+    line-height: var(--lead);
+    counter-reset: sidenote-counter;
+    -webkit-font-smoothing: antialiased;
+}
+
+article {
+    max-width: calc(var(--measure) + var(--gutter) + var(--margin-col));
+    margin: 0 auto;
+    padding: var(--head) 1.5rem calc(4 * var(--line));
+}
+
+/* Everything in the text column is one measure wide; margin items float
+   out to the right of it. */
+article > header,
+section > * {
+    max-width: var(--measure);
+}
+
+/* ---- Title block ---------------------------------------------------- */
+
+header h1,
+header .subtitle {
+    font-size: var(--title);
+    line-height: var(--title-lead);
+    font-weight: 400;
+    margin: 0;
+}
+
+header h1,
+header .subtitle {
+    text-align: left;
+    hyphens: manual;
+}
+
+header h1 {
+    text-transform: uppercase;
+    letter-spacing: var(--track-title);
+}
+
+/* ---- Opening block -------------------------------------------------- */
+
+.opening {
+    font-size: var(--small);
+    line-height: var(--small-lead);
+    margin-top: calc(2 * var(--line));
+}
+
+.opening p {
+    margin: 0 0 var(--line);
+    text-align: left;
+    text-indent: 0;
+}
+
+.opening .name {
+    font-size: var(--heading);
+    line-height: var(--line);
+}
+
+/* ---- Running text --------------------------------------------------- */
+
+p {
+    margin: 0;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+}
+
+p + p {
+    text-indent: var(--indent);
+}
+
+h2 {
+    font-size: var(--heading);
+    line-height: var(--heading-lead);
+    font-weight: 400;
+    margin: calc(2 * var(--line)) 0 var(--line);
+    hyphens: manual;
+}
+
+h3,
+h4 {
+    font-size: 1rem;
+    line-height: var(--lead);
     font-style: italic;
-    font-size: 1.4rem;
-    margin-top: 0;
+    font-weight: 400;
+    margin: var(--line) 0 0;
 }
 
-p.meta {
+em {
     font-style: italic;
 }
 
-/* Recommendation / verdict callouts */
-p.callout {
-    line-height: 1.3;
-    margin-top: 2rem;
+.smallcaps,
+strong {
+    font-weight: 400;
+    font-variant-caps: all-small-caps;
+    letter-spacing: var(--track-smallcaps);
+}
+
+.newthought {
+    font-variant-caps: all-small-caps;
+    letter-spacing: var(--track-smallcaps);
+}
+
+a:link,
+a:visited {
+    color: inherit;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.15em;
+}
+
+/* ---- Lists: marker hangs in an indent-wide column ------------------- */
+
+ul,
+ol {
+    box-sizing: border-box;
+    list-style: none;
+    margin: var(--line) 0;
+    padding-left: var(--indent);
+}
+
+li {
+    position: relative;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+}
+
+li::before {
+    position: absolute;
+    left: calc(-1 * var(--indent));
+}
+
+ul > li::before {
+    content: "–";
+}
+
+ol > li::before {
+    content: counter(list-item) ".";
+}
+
+/* ---- Block quotes --------------------------------------------------- */
+
+blockquote {
+    margin: var(--line) 0;
+    padding-left: var(--indent);
+}
+
+/* ---- Verdict callout ------------------------------------------------ */
+
+.callout {
+    display: grid;
+    grid-template-columns: 1fr var(--callout-label);
+    margin: var(--line) 0;
+}
+
+.callout p {
+    margin: 0;
+    text-indent: 0;
+    text-align: left;
+    hyphens: manual;
+}
+
+.callout-statement {
+    font-size: var(--heading);
+    line-height: var(--heading-lead);
+    padding-right: var(--rule-gap);
 }
 
 .callout-label {
-    font-variant: small-caps;
-    letter-spacing: 0.03em;
+    font-size: var(--small);
+    line-height: var(--small-lead);
+    font-variant-caps: all-small-caps;
+    letter-spacing: var(--track-label);
+    border-left: 1px solid var(--ink);
+    padding-left: var(--rule-gap);
 }
 
-.callout-title {
-    font-style: italic;
-    font-size: 2rem;
-}
+/* ---- Tables --------------------------------------------------------- */
 
-/* Booktabs-style tables */
-section > table {
+table {
     border-collapse: collapse;
-    border-top: 2px solid currentColor;
-    border-bottom: 2px solid currentColor;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
-    margin: 1.4rem 0;
+    font-size: var(--small);
+    line-height: var(--small-lead);
+    font-variant-numeric: lining-nums tabular-nums;
+    margin: var(--line) 0;
+    width: var(--measure);
 }
 
-section > table th {
-    font-style: italic;
+th {
     font-weight: 400;
     text-align: left;
-    border-bottom: 1px solid currentColor;
+    font-variant-caps: all-small-caps;
+    letter-spacing: var(--track-label);
+    border-bottom: 1px solid var(--ink);
 }
 
-section > table th,
-section > table td {
-    padding: 0.45rem 1.2rem 0.45rem 0;
+th,
+td {
+    padding: calc(var(--row-gap) / 2) var(--table-gutter) calc(var(--row-gap) / 2) 0;
     text-align: left;
     vertical-align: top;
 }
 
-/* Notes inside list items line up with the paragraph margin column. */
-li .sidenote,
-li .marginnote {
-    margin-right: -66%;
-    width: 55%;
+th {
+    padding-top: 0;
 }
 
-/* Image grid with its caption in the margin */
-.image-grid {
+/* ---- Figures -------------------------------------------------------- */
+
+figure {
+    margin: var(--line) 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.image-grid .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.6rem;
+    gap: var(--image-gutter);
 }
 
 .image-grid img {
@@ -76,23 +247,107 @@ li .marginnote {
     object-fit: cover;
 }
 
-section > figure {
-    max-width: 55%;
+figcaption {
+    font-size: var(--small);
+    line-height: var(--small-lead);
+    margin: calc(var(--line) / 2) 0 0 var(--caption-indent);
+    text-align: left;
 }
 
-blockquote {
-    margin-left: 2.5rem;
+/* ---- Margin notes --------------------------------------------------- */
+
+.sidenote,
+.marginnote {
+    float: right;
+    clear: right;
+    width: var(--margin-col);
+    margin-right: calc(-1 * (var(--gutter) + var(--margin-col)));
+    margin-bottom: var(--note-gap);
+    font-size: var(--small);
+    line-height: var(--small-lead);
+    text-align: left;
+    text-indent: 0;
+    hyphens: manual;
+    position: relative;
 }
+
+/* The number hangs to the left of the note, as in the PDF. */
+.sidenote {
+    padding-left: 1.1em;
+    text-indent: -1.1em;
+}
+
+.sidenote-number {
+    counter-increment: sidenote-counter;
+}
+
+.sidenote-number::after,
+.sidenote::before {
+    font-variant-position: super;
+}
+
+.sidenote-number::after {
+    content: counter(sidenote-counter);
+}
+
+.sidenote::before {
+    content: counter(sidenote-counter);
+    display: inline-block;
+    width: 1.1em;
+    text-indent: 0;
+}
+
+input.margin-toggle {
+    display: none;
+}
+
+label.sidenote-number {
+    display: inline;
+}
+
+label.margin-toggle:not(.sidenote-number) {
+    display: none;
+}
+
+/* ---- Narrow screens: notes collapse behind a toggle ----------------- */
 
 @media (max-width: 760px) {
-    section > table,
-    section > figure {
-        width: 100%;
-        max-width: 100%;
+    article {
+        padding: calc(var(--head) / 2) 1rem calc(2 * var(--line));
     }
-    li .sidenote,
-    li .marginnote {
-        width: 95%;
-        margin-right: 0;
+
+    article > header,
+    section > *,
+    table {
+        max-width: none;
+        width: auto;
     }
+
+    label.margin-toggle:not(.sidenote-number) {
+        display: inline;
+        cursor: pointer;
+    }
+
+    label.sidenote-number {
+        cursor: pointer;
+    }
+
+    .sidenote,
+    .marginnote {
+        display: none;
+    }
+
+    .margin-toggle:checked + .sidenote,
+    .margin-toggle:checked + .marginnote {
+        display: block;
+        float: none;
+        width: auto;
+        margin: calc(var(--line) / 2) 0 calc(var(--line) / 2) var(--indent);
+    }
+}
+
+/* Citations link to the reference list; like the PDF, they read as plain
+   text. Only links that leave the page are underlined. */
+a[href^="#"] {
+    text-decoration: none;
 }

@@ -3,3 +3,8 @@
 out/
 
 /.quarto/
+
+/.luarc.json
+
+# Generated from _extensions/tufte/fonts by render-html.sh
+_extensions/tufte/assets/fonts.css
