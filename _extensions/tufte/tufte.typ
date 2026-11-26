@@ -391,7 +391,9 @@
     )
     set par(justify: true, leading: 0pt, spacing: 0pt, first-line-indent: _indent)
     set block(spacing: _line)
-    set list(marker: box(width: _indent)[–], indent: 0pt, body-indent: 0pt, spacing: 0pt)
+    // Typst right-aligns list markers; align the dash left so it hangs at the
+    // start of its indent-wide column, like the numbers of an enum.
+    set list(marker: box(width: _indent, align(left)[–]), indent: 0pt, body-indent: 0pt, spacing: 0pt)
     set enum(
       numbering: n => box(width: _indent)[#n.],
       number-align: start + top,
@@ -424,8 +426,8 @@
     }
 
     // Title block: title in tracked capitals, subtitle in sentence case,
-    // both at title size.
-    block(below: 0pt, {
+    // both at title size, then two blank lines.
+    block(below: 2 * _line, {
       set text(.._title, hyphenate: false)
       set par(justify: false, first-line-indent: 0pt)
       text(tracking: T.track.title * 1em, upper(title))

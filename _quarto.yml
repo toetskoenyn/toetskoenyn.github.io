@@ -1,11 +1,12 @@
 # Every .qmd in this folder is a handout. `quarto render` builds each one to
-# out/<name>.pdf and out/<name>.html in the Tufte layout.
+# docs/<name>.pdf and docs/<name>.html in the Tufte layout. GitHub Pages
+# publishes docs/ at https://toetskoenyn.github.io/ (index.qmd is the home page).
 # The template is the extension in _extensions/tufte: tufte.typ holds the
 # look, tufte.lua maps the Markdown onto it. Folders starting with _ are
 # not rendered (see _archive).
 project:
   type: default
-  output-dir: out
+  output-dir: docs
   # Fail fast if Quarto would use a Typst without HTML export (see _environment).
   pre-render: _extensions/tufte/check-typst.sh
   # Quarto renders Typst only to PDF; this compiles each kept .typ to HTML too.

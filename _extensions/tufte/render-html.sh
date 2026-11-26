@@ -1,10 +1,10 @@
 #!/bin/sh
 # Quarto post-render step. Quarto turns each page into <name>.typ and
-# compiles that to out/<name>.pdf; this compiles the same .typ files to
-# out/<name>.html and then removes them, so any .typ left here is from
+# compiles that to <output-dir>/<name>.pdf; this compiles the same .typ
+# files to <output-dir>/<name>.html and then removes them, so any .typ left here is from
 # the render that just ran.
 cd "$QUARTO_PROJECT_DIR" || exit 1
-outdir=${QUARTO_PROJECT_OUTPUT_DIR:-out}
+outdir=${QUARTO_PROJECT_OUTPUT_DIR:-docs}
 status=0
 
 # The HTML embeds the same font files the PDF uses, as data URIs, so the page
@@ -31,7 +31,7 @@ for typ in *.typ; do
   }
   # Drop Typst's standing "html export is experimental" notice.
   echo "$out" | grep -v -e "html export is under active development" -e "hint:" -e '^$' || true
-  echo "Wrote out/${typ%.typ}.html"
+  echo "Wrote $outdir/${typ%.typ}.html"
   rm "$typ"
 done
 exit $status

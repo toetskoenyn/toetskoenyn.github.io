@@ -1,0 +1,10 @@
+---
+title: "Handouts"
+subtitle: "Typeset with Quarto and Typst"
+date: "2026-11-26"
+running: "Handouts"
+---
+
+Each handout is available as a web page and as an A4 PDF.
+
+- [Schooling the nation: Christian National Education in apartheid South Africa and Zionist pedagogy in Israel](ethno-nationalist-education.html) · [PDF](ethno-nationalist-education.pdf)
