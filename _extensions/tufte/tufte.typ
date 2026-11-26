@@ -69,12 +69,20 @@
   text(.._heading, body)
 }
 
+// Citation styles add a full stop after a quoted title even when the title
+// already ends in one (".”." and "?.”"). Drop the extra mark.
+#let _clean-punct(body) = {
+  show regex("[.?!]”\.") : m => m.text.slice(0, -1)
+  show regex("([?!])\.”") : m => m.text.slice(0, 1) + "”"
+  body
+}
+
 // ---- Margin column (PDF) ---------------------------------------------------
 
 #let _margin-block(body) = block(width: _mw, {
   set text(.._small)
   set par(justify: false, leading: 0pt, spacing: T.lead.small * 0.5pt, first-line-indent: 0pt)
-  body
+  _clean-punct(body)
 })
 
 // Margin items stack so they never overlap. Each item records its id, the
@@ -82,7 +90,9 @@
 // every item on its page:
 //   1. top to bottom, an item that would collide is pushed below the one above;
 //   2. bottom to top, items that would run past the foot of the text block
-//      are pulled up into free space above.
+//      are pulled up into free space above;
+//   3. if they still do not fit, they are kept apart and the last ones run
+//      past the foot rather than overlap.
 // The recorded values don't depend on one another, so the layout settles in
 // a couple of passes however many items share a page.
 #let _mc = counter("tufte-margin-item")
@@ -120,6 +130,12 @@
       ys.at(i) = y
       limit = y - gap
     }
+    //   3. top to bottom again: if the page's notes are taller than the whole
+    //      margin, step 2 stops them at the top margin, where they would
+    //      overlap; push them apart, letting the last ones run past the foot.
+    for i in range(1, items.len()) {
+      ys.at(i) = calc.max(ys.at(i), ys.at(i - 1) + items.at(i - 1).h + gap)
+    }
     let y = ys.at(items.position(it => it.id == id))
 
     box(width: 0pt, height: 0pt, place(
@@ -145,7 +161,7 @@
       let id = "sn-" + n
       html.elem("label", attrs: ("for": id, class: "margin-toggle sidenote-number"))
       html.elem("input", attrs: (type: "checkbox", id: id, class: "margin-toggle"))
-      html.elem("span", attrs: (class: "sidenote"), body)
+      html.elem("span", attrs: (class: "sidenote"), _clean-punct(body))
     } else {
       // The mark and the note's anchor share one unbreakable box, so a line
       // break can't fall between them and misplace the note.
@@ -165,6 +181,10 @@
 // (margin-entry.csl). The list at the end has the rest.
 #let margin-entry(key) = cite(key, form: "full", style: "margin-entry.csl")
 
+// Later citations of a work in the margin: "Author Year", or "Author "Short
+// title"" for an undated work (margin-entry.csl).
+#let margin-short(key) = cite(key, style: "margin-entry.csl")
+
 // Unnumbered note in the margin.
 #let marginnote(body) = {
   _mn.step()
@@ -173,7 +193,7 @@
       let id = "mn-" + str(_mn.get().first())
       html.elem("label", attrs: ("for": id, class: "margin-toggle"), [⊕])
       html.elem("input", attrs: (type: "checkbox", id: id, class: "margin-toggle"))
-      html.elem("span", attrs: (class: "marginnote"), body)
+      html.elem("span", attrs: (class: "marginnote"), _clean-punct(body))
     } else {
       box(_place-margin(body))
     }
@@ -267,10 +287,11 @@
 }
 
 // Table: small type, tabular figures, a hairline under the header only.
+// Handout tables are short, so a table is kept on one page.
 #let booktabs(columns: auto, header: (), ..rows) = context if _html() {
   table(columns: columns, table.header(..header), ..rows.pos().flatten())
 } else {
-  block(above: _line, below: _line, {
+  block(above: _line, below: _line, breakable: false, {
     set text(.._small, number-width: "tabular")
     set par(justify: false, first-line-indent: 0pt, leading: 0pt)
     let pad = T.space.row_gap * 1pt
@@ -349,6 +370,7 @@
   _date.update(date)
   show strong: it => sc(it.body)
   set bibliography(title: [References])
+  show bibliography: _clean-punct
 
   context if _html() {
     html.elem("style", _css-vars() + read("assets/fonts.css") + "\n" + read("assets/handout.css"))

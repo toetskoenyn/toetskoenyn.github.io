@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- The first citation of a work in the margin: author, year and title
-     only. Editor, publisher and place are left to the list at the end. -->
+<!-- Citations in the margin. The first citation of a work (bibliography
+     layout) gives author, year and title only; editor, publisher and place
+     are left to the list at the end. Later citations (citation layout) give
+     "Author Year", or "Author "Short title"" when the work has no date, so
+     undated works by one author stay distinct. -->
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="en-GB">
   <info>
     <title>Tufte handout: margin entry</title>
@@ -41,8 +44,18 @@
       <group delimiter=" ">
         <names variable="author">
           <name form="short"/>
+          <substitute>
+            <names variable="editor"/>
+          </substitute>
         </names>
-        <text macro="year"/>
+        <choose>
+          <if variable="issued">
+            <text macro="year"/>
+          </if>
+          <else>
+            <text variable="title" form="short" quotes="true"/>
+          </else>
+        </choose>
       </group>
     </layout>
   </citation>

@@ -15,9 +15,10 @@
 --
 -- Citations follow the Tufte books: the source sits in the margin beside
 -- the claim. The first citation of a work gives author, year and title
--- (margin-entry in tufte.typ), later ones "Author Year". A citation inside
--- a footnote joins that sidenote. The handout's `bibliography:` file supplies the entries; `reference-list:
--- false` keeps the list at the end from printing.
+-- (margin-entry in tufte.typ), later ones "Author Year" (margin-short). A
+-- citation inside a footnote joins that sidenote. The handout's
+-- `bibliography:` file supplies the entries; `reference-list: false` keeps
+-- the list at the end from printing.
 
 if not FORMAT:match("typst") then
   return {}
@@ -76,6 +77,52 @@ end
 
 local cited = {}
 
+-- Titles whose last character is ".", "?" or "!", read from the handout's
+-- .bib files. A full margin entry for such a title must not get another full
+-- stop after it ("Really?”." would be wrong).
+local ends_in_punct = {}
+
+local function closing_brace(text, open)
+  local depth = 0
+  for i = open, #text do
+    local ch = text:sub(i, i)
+    if ch == "{" then depth = depth + 1
+    elseif ch == "}" then
+      depth = depth - 1
+      if depth == 0 then return i end
+    end
+  end
+end
+
+local function read_bib_titles(path)
+  local f = io.open(path, "r")
+  if not f then return end
+  local text = f:read("a")
+  f:close()
+  for start, key in text:gmatch("()@%a+%s*{%s*([^,%s]+)%s*,") do
+    local entry_end = closing_brace(text, text:find("{", start, true)) or #text
+    local entry = text:sub(start, entry_end)
+    local t = entry:find("[^%a]title%s*=%s*{")
+    if t then
+      local open = entry:find("{", t, true)
+      local close = closing_brace(entry, open)
+      if close then
+        local title = entry:sub(open + 1, close - 1):gsub("[{}%s]+$", "")
+        if title:match("[%.%?!]$") then ends_in_punct[key] = true end
+      end
+    end
+  end
+end
+
+local bib_titles = {
+  Meta = function(meta)
+    local b = meta.bibliography
+    if not b then return end
+    local paths = b.t == "MetaList" and b or { b }
+    for _, item in ipairs(paths) do read_bib_titles(pandoc.utils.stringify(item)) end
+  end,
+}
+
 -- One citation as Typst code ending in ";", which closes the embedded
 -- expression so the text after it can't be read as part of it.
 local function cite_call(id, form)
@@ -96,13 +143,12 @@ local function cite_item(c)
   elseif c.mode == "SuppressAuthor" then
     s = cite_call(c.id, "year")
   else
-    -- "~", not a space: Typst merges cites separated only by spaces into
-    -- one group and would print "Author; Year".
-    s = cite_call(c.id, "author") .. "~" .. cite_call(c.id, "year")
+    -- "Author Year", or "Author "Short title"" for an undated work.
+    s = "#margin-short(label(" .. str_literal(c.id) .. "));"
   end
   if #c.prefix > 0 then s = markup(c.prefix) .. " " .. s end
   if #c.suffix > 0 then s = s .. markup(c.suffix) end
-  return { s = s, full = first and c.mode ~= "AuthorInText" }
+  return { s = s, full = first and c.mode ~= "AuthorInText", punct = ends_in_punct[c.id] and #c.suffix == 0 }
 end
 
 -- Short citations run on with "; "; each full entry gets its own line.
@@ -115,11 +161,13 @@ local function cite_group(cite, terminal)
   for i, it in ipairs(items) do
     if i > 1 then
       local prev = items[i - 1]
-      table.insert(out, prev.full and ".#linebreak()" or (it.full and ";#linebreak()" or "; "))
+      local stop = prev.punct and "" or "."
+      table.insert(out, prev.full and (stop .. "#linebreak()") or (it.full and ";#linebreak()" or "; "))
     end
     table.insert(out, it.s)
   end
-  if terminal then table.insert(out, ".") end
+  local last = items[#items]
+  if terminal and not (last and last.full and last.punct) then table.insert(out, ".") end
   return table.concat(out)
 end
 
@@ -291,6 +339,7 @@ end
 
 -- Citations first, so the notes they create go through Note below.
 return {
+  bib_titles,
   citations,
   {
     Str = Str, Quoted = Quoted, Note = Note, Span = Span,
