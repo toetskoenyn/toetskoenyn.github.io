@@ -1,0 +1,104 @@
+---
+title: "The balance sheet of schism"
+subtitle: "The 1517 Fugger–Albrecht loan and the Protestant Reformation"
+date: "2026-11-26"
+running: "The balance sheet of schism · Fugger, Albrecht and 1517"
+bibliography: fugger-reformation.bib
+---
+
+[A financial-historical synthesis. It rests mainly on a 2024 Uncover History video, with Steinmetz on Fugger's wealth and Eire on printing. Full references at the end.]{.marginnote}*Jacob Fugger, Albrecht of Brandenburg and the indulgence of 1517*\
+Augsburg · Mainz · Rome · Wittenberg, 1513–1519\
+[Financial history · Reformation · Church finance]{.smallcaps}
+
+# 1. Summary
+
+This synthesis reads the Protestant Reformation as a financial event as much as a theological one.
+
+In 1514 Albrecht of Brandenburg, aged 24, wanted the Archbishopric of Mainz. The office required large dispensation fees in Rome, and he had no money, so he borrowed from Jacob Fugger, the richest private citizen of his day. To repay the loan, Pope Leo X authorised an indulgence campaign whose takings were split equally between the building of St Peter's Basilica and the Fugger bank. Fugger agents travelled with the preachers and held the keys to the collection chests.[@UncoverHistory2024]
+
+<!-- TODO: The source gives Albrecht's age inconsistently: "the 24-year-old" in 1514 in the abstract, but "at age 23" in 1513 and "only 24" in the body. Born 1490, he would have been 23 in 1513 and 24 in 1514. -->
+
+Martin Luther's Ninety-Five Theses answered this arrangement. Printing spread them across Europe within weeks, and the grievance they voiced was economic as well as doctrinal.
+
+::: {.verdict label="Main argument"}
+The 1517 indulgence was a debt-collection scheme, and the Reformation began, in part, as a credit event.
+:::
+
+# 2. The argument
+
+[The usual story]{.newthought} starts with Luther nailing his Ninety-Five Theses to the castle church door in Wittenberg on 31 October 1517. The theology of that story, *sola fide* and papal authority, is not in question here. What it leaves out is the money. A transnational banking transaction set the conditions for the schism and then set it off.[@UncoverHistory2024]
+
+At its centre was a private loan from Jacob Fugger, head of the Augsburg banking house, to Albrecht of Brandenburg, an archbishop already holding several sees. Seen this way, the indulgence campaign of 1517 was not a lapse in church discipline but a secured means of repaying private capital. The rest of this handout follows the loan, how it was repaid, and what happened when sacred authority met modern finance.
+
+# 3. The Fugger fortune
+
+[The Fuggers began]{.newthought} as linen weavers in Augsburg, where Hans Fugger settled in the mid-fourteenth century. Within three generations they had moved into banking and heavy industry. Jacob "the Rich" Fugger led the change. He trained in Venice, then Europe's financial centre, and learnt double-entry bookkeeping, currency arbitrage and hedging across markets. Back in Augsburg he built a bank with branches in Rome, Antwerp, Lyon and London.[@UncoverHistory2024]
+
+He lent heavily to rulers short of cash, against the future output of their mines, and took the mines when they defaulted. That gave him control of much of Europe's metal supply:[@UncoverHistory2024]
+
+1. *Schwaz silver.* The Tyrolean mines, called "the mother of all silver mines", came from Archduke Sigismund in repayment of debt and gave the Fuggers about 75% of the region's silver.
+2. *Hungarian copper.* With the Thurzo family, Fugger took the copper deposits around Banská Bystrica in present-day Slovakia, close to half of Europe's copper output.
+
+<!-- TODO: Check whether the Fuggers took the Schwaz mines outright, as the source says, or the rights to their output as security for loans. -->
+
+At its height his fortune is put at between 2% and 10% of Europe's economic output, or about \$400 billion today.[@Steinmetz2015; @UncoverHistory2024] It let him treat kings, popes and emperors as items on a ledger. In 1519 he financed the election of Charles V as emperor with 543,000 florins in bribes to the electors.[@UncoverHistory2024]
+
+# 4. Albrecht and the Curia
+
+[The Renaissance papacy]{.newthought} ran the largest financial bureaucracy in the West. It collected tithes, managed vast estates and charged confirmation fees for church appointments. Senior clergy in the Empire were also princes who raised taxes and commanded troops, so Rome charged a premium for their offices. Leo X had drained the papal treasury, not least on rebuilding St Peter's, and needed a steady flow of cash.[@UncoverHistory2024]
+
+In 1513 Albrecht, already Archbishop of Magdeburg and Bishop of Halberstadt, sought the vacant see of Mainz. It was the most prestigious in the Empire: it carried the title of Arch-Chancellor and a vote in imperial elections. Canon law stood in his way twice. He was under 30, the minimum age for a bishop, and he could not hold several sees at once.[@UncoverHistory2024]
+
+For a dispensation on both counts the Curia asked between 21,000 gold ducats and 30,000 Rhenish guilders. Albrecht's own and his family's funds were exhausted, so Fugger advanced the whole sum to Rome. To get round the church's ban on usury, the interest was described as payment for "trouble, danger and expense".[@UncoverHistory2024]
+
+# 5. How the indulgence repaid the loan
+
+[With no income]{.newthought} to service the debt, Albrecht and Leo X set up what amounted to a joint venture:[@UncoverHistory2024]
+
+1. *The commission.* A papal bull authorised an eight-year indulgence campaign across Mainz, Magdeburg and Halberstadt.
+2. *The split.* Takings from the indulgences, which promised souls immediate release from purgatory, were divided equally: half to Rome for St Peter's, half to Augsburg to pay off Albrecht's loan.
+3. *The audit.* So that church officials could not skim the money, the Fugger bank placed its own agents in the preaching campaign.
+
+| Stage                  | What happened                                         |
+|------------------------|-------------------------------------------------------|
+| Sale                   | The faithful buy indulgences from Tetzel's preachers  |
+| Collection             | Cash goes into the indulgence chest                   |
+| Audit                  | A Fugger agent with a key opens and counts the chest  |
+| Rome, 50%              | Construction of St Peter's Basilica                   |
+| Augsburg, 50%          | Repayment of Albrecht's debt to the Fugger bank       |
+
+The Dominican friar Johann Tetzel toured the German countryside with sermons designed to frighten, and a Fugger agent went with him. The agent held the key to the chest. After each sermon he opened it on the spot, counted the coins, took the bank's half and sent it to Augsburg. Salvation had become a cash register for repaying a private loan.[@UncoverHistory2024]
+
+# 6. Luther and the press
+
+[All of this]{.newthought} happened close to Wittenberg, where Luther taught theology. His background mattered. His father, Hans Luther, was a master smelter and mine operator in the Harz, so Luther grew up knowing how the Fugger cartels worked and how their money ran the regional economy. When his parishioners showed him indulgence certificates from Tetzel as proof that they no longer needed to repent, he recognised the hand of Fugger capital.[@UncoverHistory2024]
+
+The Ninety-Five Theses, written on 31 October 1517, challenged this transactional theology directly. Luther meant to start a local academic debate in Latin. Printing turned it into something else: within weeks the text had been translated into German and circulated across Europe. It struck home because it named an economic grievance, money drawn from poor German peasants to pay for Italian buildings and Augsburg bankers.[@UncoverHistory2024] As @Eire2016 observes, the printing press was a necessary condition for the message to spread so fast.
+
+# 7. Limits of the evidence
+
+1. *The fees.* Contemporary sources disagree on what Rome was paid, from 21,000 gold ducats to 30,000 Rhenish guilders. Coin values varied across the Empire, so a common modern equivalent is hard to fix.[@UncoverHistory2024]
+2. *The fortune.* The figure of up to 10% of European output comes from modern reconstructions.[@Steinmetz2015; @UncoverHistory2024] Early modern GDP estimates are speculative: municipal records are incomplete, and much of the farming economy ran on barter.
+3. *Cause.* The loan was the immediate spark for the campaign, but no one can show that a rupture would not have come from other tensions.
+
+A better account would come from the Fugger ledgers in the Augsburg archives: network models of how money moved between Rome, Augsburg and the towns Tetzel visited, and of how coin was physically carried. That would show how far the campaign drained local cash.
+
+::: {.verdict label="Caveat"}
+The account is coherent, but it rests almost entirely on one popular source.
+:::
+
+<!-- TODO: Every claim except the GDP share and the printing press rests on UncoverHistory2024, a YouTube video transcript. The source's own text presents this as settled; consider checking the key figures against Steinmetz (2015) or other scholarship. -->
+
+# 8. Consequences
+
+[If the account holds]{.newthought}, the debate over purgatory and faith became explosive because it was tied to a cash flow meant to keep an imperial archbishop from defaulting on his debt to a private bank. The collision reshaped Europe:[@UncoverHistory2024]
+
+- the German Peasants' War of 1524–1525, which killed more than 100,000 people;
+- the Schmalkaldic Wars, financed on the imperial side by further Fugger loans to Charles V;
+- the Thirty Years' War of 1618–1648, which cost up to 20% of Europe's population.
+
+<!-- TODO: The 20% figure is usually given for the population of the German lands, not of Europe; check before keeping "Europe's". The source also writes "Schmalkaldic Wars"; the main conflict is usually called the Schmalkaldic War (1546–1547). -->
+
+Jacob Fugger did not set out to break Western Christendom. He was a devout Catholic who founded charitable housing, the Fuggerei, and his bank financed imperial wars against Protestant alliances.[@UncoverHistory2024] But by applying double-entry bookkeeping, risk management and monopoly to the offices of the Church, he created a contradiction it could not contain. On this reading, the largest shifts in ideas can turn on the ordinary mechanics of debt and credit.
+
+<!-- TODO: The source says Jacob Fugger spent his final years funding wars against Protestant coalitions. He died in 1525; the Schmalkaldic War (1546–1547) was financed under his nephew Anton Fugger. The sentence above attributes the war loans to the bank, not to Jacob; check it. -->
