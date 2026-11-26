@@ -34,12 +34,12 @@ At its centre was a private loan from Jacob Fugger, head of the Augsburg banking
 
 [The Fuggers began]{.newthought} as linen weavers in Augsburg, where Hans Fugger settled in the mid-fourteenth century. Within three generations they had moved into banking and heavy industry. Jacob "the Rich" Fugger led the change. He trained in Venice, then Europe's financial centre, and learnt double-entry bookkeeping, currency arbitrage and hedging across markets. Back in Augsburg he built a bank with branches in Rome, Antwerp, Lyon and London.[@UncoverHistory2026]
 
-He lent heavily to rulers short of cash, against the future output of their mines, and took the mines when they defaulted. That gave him control of much of Europe's metal supply:[@UncoverHistory2026]
+He lent heavily to rulers short of cash, secured on the future output of their mines, and so gained control of much of Europe's metal supply:[@UncoverHistory2026]
 
-1. *Schwaz silver.* The Tyrolean mines, called "the mother of all silver mines", came from Archduke Sigismund in repayment of debt and gave the Fuggers about 75% of the region's silver.
-2. *Hungarian copper.* With the Thurzo family, Fugger took the copper deposits around Banská Bystrica in present-day Slovakia, close to half of Europe's copper output.
+1. *Schwaz silver.* The silver mines at Schwaz in Tyrol, known historically as the "mother of all mines", became Europe's leading silver centre in the late fifteenth century.[@Tschan2004] In the 1480s Archduke Sigismund of Tyrol borrowed from Jacob Fugger and his family, pledging the mining revenues and granting them preferential rights to the silver.[@Linsboth] By the end of the century Schwaz produced an estimated 85% of Europe's silver, which helped make the Fuggers one of Europe's most powerful banking and industrial families.[@Tschan2004]
+2. *Hungarian copper.* With the Thurzo family, Fugger took the copper deposits around Banská Bystrica in present-day Slovakia, close to half of Europe's copper output.[@UncoverHistory2026]
 
-<!-- TODO: Check whether the Fuggers took the Schwaz mines outright, as the source says, or the rights to their output as security for loans. -->
+<!-- TODO: Linsboth confirms that the Habsburgs mortgaged their silver rights to entrepreneurs "like the Fuggers", but not the 1480s date or Sigismund by name. Benecke, Maximilian I: An Analytical Biography (Routledge & Kegan Paul, 1982; ISBN 9780710090232) is a likely source for those details; check it before citing. -->
 
 At its height his fortune is put at between 2% and 10% of Europe's economic output, or about \$400 billion today.[@Steinmetz2015; @UncoverHistory2026] It let him treat kings, popes and emperors as items on a ledger. In 1519 he financed the election of Charles V as emperor with 543,000 florins in bribes to the electors.[@UncoverHistory2026]
 
