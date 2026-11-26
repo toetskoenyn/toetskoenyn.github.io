@@ -3,8 +3,8 @@
 // colour comes from tokens.json, which also feeds the HTML's CSS, so the
 // two outputs can't drift apart.
 //
-//   typst compile main.typ out/mapsa.pdf
-//   typst compile --features html --format html main.typ out/mapsa.html
+//   typst compile handout.typ docs/handout.pdf
+//   typst compile --features html --format html handout.typ docs/handout.html
 
 #let T = json("tokens.json")
 #let _html() = target() == "html"

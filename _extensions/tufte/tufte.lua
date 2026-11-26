@@ -1,4 +1,4 @@
--- tufte.lua: map the Markdown in mapsa.qmd onto the Typst helpers in
+-- tufte.lua: map the Markdown in each handout (.qmd) onto the Typst helpers in
 -- tufte.typ, so the text stays plain Markdown and Typst controls the look.
 --
 --   [^note]                      -> #sidenote[...]
