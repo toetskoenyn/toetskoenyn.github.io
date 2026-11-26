@@ -14,11 +14,13 @@ Augsburg · Mainz · Rome · Wittenberg, 1513–1519\
 
 This synthesis reads the Protestant Reformation as a financial event as much as a theological one.
 
-In 1514 Albrecht of Brandenburg, aged 24, wanted the Archbishopric of Mainz. The office required large dispensation fees in Rome, and he had no money, so he borrowed from Jacob Fugger, the richest private citizen of his day. To repay the loan, Pope Leo X authorised an indulgence campaign whose takings were split equally between the building of St Peter's Basilica and the Fugger bank. Fugger agents travelled with the preachers and held the keys to the collection chests.[@UncoverHistory2026]
+In March 1514 Albrecht of Brandenburg, aged 23 and already Archbishop of Magdeburg and administrator of Halberstadt, was chosen as Archbishop of Mainz.[@Schulte1904] The appointments needed costly papal confirmations and dispensations, and he borrowed heavily from Jacob Fugger to pay for them in Rome.
 
-<!-- TODO: The source gives Albrecht's age inconsistently: "the 24-year-old" in 1514 in the abstract, but "at age 23" in 1513 and "only 24" in the body. Born 1490, he would have been 23 in 1513 and 24 in 1514. -->
+In 1515 Pope Leo X authorised an eight-year indulgence in Albrecht's territories, officially to pay for building St Peter's Basilica in Rome. Half the takings were for the basilica and half for Albrecht. Both halves were paid to the Fuggers: the papal half for transfer to Rome, Albrecht's half against his debt.[@Schulte1904]
 
-Martin Luther's Ninety-Five Theses answered this arrangement. Printing spread them across Europe within weeks, and the grievance they voiced was economic as well as doctrinal.
+The arrangement was unusually direct. In May 1517 the indulgence commissioners ordered, on papal instruction, that Jacob Fugger should hold a key to every collection chest, so the bank could watch the money and recover its loan.[@Schulte1904, 143–44]
+
+In October 1517 Martin Luther sent Albrecht his Ninety-Five Theses, challenging both the theology of indulgences and the way they were sold.[@Wengert2015] Printing carried them quickly across the German lands and beyond. Luther's objections were theological at root, but the controversy exposed how far church authority, political ambition and commercial finance had become entangled.
 
 ::: {.verdict label="Main argument"}
 The 1517 indulgence was a debt-collection scheme, and the Reformation began, in part, as a credit event.
