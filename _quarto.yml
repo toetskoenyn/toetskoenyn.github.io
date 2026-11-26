@@ -1,6 +1,7 @@
 # Every .qmd in this folder is a handout. `quarto render` builds each one to
 # docs/<name>.pdf and docs/<name>.html in the Tufte layout. GitHub Pages
 # publishes docs/ at https://toetskoenyn.github.io/ (index.qmd is the home page).
+# ./publish.sh rebuilds index.qmd, renders, commits and pushes in one go.
 # The template is the extension in _extensions/tufte: tufte.typ holds the
 # look, tufte.lua maps the Markdown onto it. Folders starting with _ are
 # not rendered (_sources, _design).

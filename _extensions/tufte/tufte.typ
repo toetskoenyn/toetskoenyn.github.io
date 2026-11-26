@@ -343,7 +343,9 @@
 }
 
 #let handout(title: "", subtitle: none, date: none, running: none, body) = {
-  set document(title: title)
+  // No creation date, so an unchanged handout renders to an identical PDF
+  // and publish.sh commits only what really changed.
+  set document(title: title, date: none)
   _date.update(date)
   show strong: it => sc(it.body)
   set bibliography(title: [References])
