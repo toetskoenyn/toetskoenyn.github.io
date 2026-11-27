@@ -1,0 +1,45 @@
+---
+title: "The first insurance scandal"
+subtitle: "Indulgences, the Fugger loan and the money behind Luther's theses"
+date: "2026-11-27"
+running: "The first insurance scandal · Indulgences as insurance"
+bibliography: fugger-reformation-column.bib
+---
+
+[An opinion column drawn from the handout [The loan behind the indulgence](fugger-reformation.html). Full references at the end.]{.marginnote}*Buying an indulgence in 1517 was not as crazy as it sounds. The trouble lay with the underwriter, and with the bank behind it.*
+
+[You buy a kettle]{.newthought} for £30 and the assistant at the till asks if you'd like the three-year protection plan for £8. Every personal-finance column says no. Kettles rarely break, and the plan is priced so the shop wins.
+
+People buy it anyway, and they are not all fools. What they are buying is the right to stop worrying about the kettle.
+
+Now raise the stakes. Imagine the risk is not a broken kettle but years, perhaps centuries, of suffering after death, for you or for a parent who has already died. Imagine too that the most trusted institution you know assures you that the risk is real. That was purgatory for a German Christian in 1517. The indulgence was the protection plan.
+
+In 1515 Pope Leo X authorised an eight-year indulgence across the church provinces of Mainz and Magdeburg and the Brandenburg lands.[@Schulte1904, 125] Its preachers, the Dominican friar Johann Tetzel the best known among them, offered its benefits for the living and for souls already in purgatory.[What Tetzel actually preached is still an open question; see the handout, [§5](fugger-reformation.html).]{.marginnote} Tetzel worked the dioceses of Meissen, Magdeburg and Halberstadt. The Elector Frederick the Wise kept him out of Saxony,[@BritannicaTetzel] so people from there crossed the border to Jüterbog and Zerbst to buy.[@ThuringiaArchives] Shoppers still cross borders to save money. These ones crossed to spend it.
+
+<!-- TODO: The Thuringian State Archives page was seen only as a search excerpt. Read the full page to confirm the Jüterbog and Zerbst detail. -->
+
+Was that irrational? By the usual reckoning it was: an uncertain payout you could never check, bought from a seller who set the terms. Behavioural economists have shown that people pay over the odds for cover against vivid, frightening risks. They also pay a premium to make a risk vanish altogether rather than merely shrink it, which Daniel Kahneman and Amos Tversky called the certainty effect.[@KahnemanTversky1979] In one well-known experiment, people would pay more for flight insurance against terrorism alone than for cover against death from any cause.[@Johnson1993]
+
+<!-- TODO: Unverified. The paper's general finding is confirmed, but the terrorism example has not been checked against the full text of Johnson et al. (1993). -->
+
+But look at it from inside the policyholder's world. The loss was catastrophic and long. Nobody could diversify it away. The premium was a coin, not a farm. And the relief came at once: you went home and slept. For someone who believed what they had been taught, buying the policy was the sensible thing to do. The doubtful part was the policy wording.
+
+That, read as an economist might read it, is a large part of what Martin Luther objected to in October 1517. His objections were theological at root.[@Wengert2015] But some of the Ninety-Five Theses read like a regulator's report.
+
+[Thesis 27]{.newthought} is about mis-selling. It condemns preachers who say that the soul flies out of purgatory as soon as the money clinks in the chest, a line later pinned on Tetzel himself.[@Luther1915] Thesis 32 is about moral hazard, the insurer's old fear that people who feel covered stop taking care: those who think themselves sure of salvation because they hold letters of pardon, it says, will be damned along with their teachers. Luther's worry, by his own account, was that parishioners treated indulgences as a way round repentance.[@Wengert2015] Insured drivers drive faster. Insured sinners, he feared, stopped repenting.
+
+<!-- TODO: The attribution of the jingle to Tetzel comes from the handout (§5), which gives no separate source for it. -->
+
+Thesis 86 then asks the underwriter about its capital. Why does the pope, "whose wealth is to-day greater than the riches of the richest", not build St Peter's "with his own money, rather than with the money of poor believers"?[@Luther1915, 78]
+
+The real answer was worse than Luther knew. There is no clear evidence that he knew about the loan behind the indulgence.[On what Luther knew, see the handout, [§2 and §6](fugger-reformation.html).]{.marginnote}
+
+[In 1514]{.newthought} Albrecht of Brandenburg, already Archbishop of Magdeburg, borrowed from Jacob Fugger of Augsburg to pay Rome for the dispensations that let him add Mainz. The bond records 21,000 ducats plus a fee for the bank.[@Schulte1904, 104] Under the terms of 1515, half the indulgence takings, after costs, went to St Peter's and half to Albrecht, and Fugger handled both. From May 1517 one of the keys to every collection chest was held for Fugger, and each chest was opened before a notary and witnesses.[@Schulte1904, 143–44]
+
+In other words, half the premiums had been pledged to a creditor before most policies were sold. No wonder the selling was hard.
+
+And the creditor had bigger business. Mainz carried one of the seven votes that chose the Holy Roman Emperor.[@Schulte1904] In 1519 Charles of Habsburg spent 851,585 guilders courting the electors, and Fugger put up almost two thirds of it.[@Messmer2020] Charles won, though historians still argue over whether the money is why.[@Cohn2001] Next to that, the indulgence was small change. On Aloys Schulte's admittedly loose reconstruction, Albrecht netted about 3,900 ducats from it.[@Schulte1904, 147]
+
+So the faithful were not the reckless ones. They bought peace of mind with a coin and, by their own lights, got it. The people taking the real gamble were Rome and Albrecht, betting that a promise they could never be asked to honour would cover a debt that very much could be called in.
+
+Everyone who queued at the chest was buying insurance. Only the banker had a key.
