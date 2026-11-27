@@ -269,6 +269,9 @@ figure {
 img {
     display: block;
     max-width: 100%;
+    /* Typst writes the pixel width and height on <img>; without this the
+       height stays fixed when max-width scales the width down. */
+    height: auto;
 }
 
 .image-grid .grid {
