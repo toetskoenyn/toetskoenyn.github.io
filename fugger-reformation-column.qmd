@@ -42,6 +42,14 @@ And the creditor had bigger business. Mainz carried one of the seven votes that 
 
 Within four years Luther's allies had found an older precedent. The *Passional Christi und Antichristi* of 1521 set woodcuts from Cranach's workshop in facing pairs, with captions by Philip Melanchthon and the lawyer Johann Schwertfeger.[@Wareham2016] On one page Christ makes a whip of cords and scatters the changers' money: "You received it for nothing, so give it for nothing." Opposite, the pope sits in the temple of God and sells dispensations, the very thing Albrecht had borrowed to buy,[@Schulte1904] along with indulgences and bishoprics. The Latin heading takes six words: *Vendentes pepulit templo. Quos accipit ille.* He drove the sellers out. This one takes them in.[@Passional2019]
 
+```{=typst}
+#figure(
+  image("images/passional-temple-pair.jpg", alt: "Two facing woodcut pages. Left, headed 'Passional Christi': Christ swings a whip of cords at money-changers sprawled by an overturned table. Right, headed 'und Antichristi': the pope on a throne signs letters while people queue at a table piled with coins."),
+  numbering: none,
+  caption: [Christ drives the money-changers out of the Temple; opposite, the pope takes in indulgence money. Woodcuts from the Cranach workshop, _Passional Christi und Antichristi_ (Wittenberg: Johann Rhau-Grünenberg, 1521–22). Rijksmuseum, Amsterdam, #link("http://hdl.handle.net/10934/RM0001.COLLECT.31937")[RP-P-OB-4462] and #link("http://hdl.handle.net/10934/RM0001.COLLECT.31940")[RP-P-OB-4463], public domain.],
+)
+```
+
 So the faithful were not the reckless ones. They bought peace of mind with a coin and, by their own lights, got it. The people taking the real gamble were Rome and Albrecht, betting that a promise they could never be asked to honour would cover a debt that very much could be called in.
 
 Everyone who queued at the chest was buying insurance. Only the banker had a key.
